@@ -20,6 +20,10 @@ class ConsentScope(str, Enum):
     # Custom and extensible scopes
     CUSTOM_TEMPORARY = "custom.temporary"
     CUSTOM_SESSION_WRITE = "custom.session.write"
+    CUSTOM_SCHEDULE_MANAGE = "schedule.manage"
+    CUSTOM_CALENDAR_WRITE = "calendar.write"
+    CUSTOM_SLACK_SEND = "slack.send"
+    CUSTOM_SCHEDULE_SUGGEST = "schedule.suggest"
 
     @classmethod
     def list(cls):
